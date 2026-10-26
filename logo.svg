@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48" role="img" aria-label="Clientes con IA">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d5dfc"/><stop offset="1" stop-color="#18c1a0"/></linearGradient></defs>
+  <path d="M6 10a8 8 0 0 1 8-8h20a8 8 0 0 1 8 8v16a8 8 0 0 1-8 8H20l-9 8v-8H14a8 8 0 0 1-8-8z" fill="url(#g)"/>
+  <circle cx="17" cy="18" r="2.6" fill="#fff"/><circle cx="24" cy="18" r="2.6" fill="#fff"/><circle cx="31" cy="18" r="2.6" fill="#fff"/>
+  <text x="52" y="30" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#14142b">Clientes<tspan fill="#6d5dfc" font-weight="500"> con </tspan><tspan fill="#18c1a0">IA</tspan></text>
+</svg>

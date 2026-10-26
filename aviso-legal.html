@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aviso legal · Clientes con IA</title>
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo"><img src="logo.svg" alt="Clientes con IA" width="200" height="40"></a>
+    <nav class="nav-links" id="menu">
+      <a href="index.html#servicios">Servicios</a>
+      <a href="index.html#como-funciona">Cómo funciona</a>
+      <a href="index.html#sectores">Sectores</a>
+      <a href="index.html#faq">Preguntas</a>
+      <a href="index.html#contacto" class="btn btn-small">Reserva una llamada</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+<section class="legal-hero">
+  <div class="container narrow">
+    <span class="eyebrow">Información legal</span>
+    <h1>Aviso legal</h1>
+    <p>Última actualización: 26 de octubre de 2026</p>
+  </div>
+</section>
+<article class="legal">
+  <div class="container narrow">
+
+<h2>1. Datos identificativos</h2>
+<p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los datos del titular de este sitio web:</p>
+<table>
+  <tr><th>Titular</th><td>Zaquiel Mayorga Batista (persona física), que opera con el nombre comercial «Clientes con IA»</td></tr>
+  <!-- PENDIENTE: añadir fila NIF/NIE cuando esté disponible -->
+  <!-- PENDIENTE: añadir fila Domicilio cuando esté disponible -->
+  <tr><th>Correo electrónico</th><td><a href="mailto:hola@clientesconia.com">hola@clientesconia.com</a></td></tr>
+  <tr><th>Sitio web</th><td>clientesconia.com</td></tr>
+</table>
+<p>Actividad: diseño, desarrollo e implantación de chatbots, agentes de inteligencia artificial y automatización de procesos para empresas y profesionales. Al tratarse de una persona física, el titular no está inscrito en el Registro Mercantil.</p>
+
+<h2>2. Objeto y aceptación</h2>
+<p>Este aviso legal regula el acceso y el uso del sitio web clientesconia.com (en adelante, «el sitio web»). Acceder y navegar por el sitio web implica aceptar estas condiciones. Si no estás de acuerdo con ellas, te rogamos que no utilices el sitio web.</p>
+
+<h2>3. Condiciones de uso</h2>
+<p>Te comprometes a utilizar el sitio web y sus contenidos de forma lícita, conforme a la ley, la buena fe y el orden público, y a no emplearlos para actividades ilícitas o que puedan dañar los derechos de terceros o el funcionamiento del sitio web.</p>
+<p>La información del sitio web tiene carácter informativo y no constituye una oferta contractual. Las condiciones de cada servicio se acuerdan de forma individual mediante propuesta o presupuesto.</p>
+
+<h2>4. Propiedad intelectual e industrial</h2>
+<p>Los textos, el diseño, el logotipo, el nombre comercial «Clientes con IA» y el resto de contenidos del sitio web pertenecen al titular o se usan con la debida autorización. Queda prohibida su reproducción, distribución, comunicación pública o transformación sin autorización previa y por escrito, salvo para uso personal y privado.</p>
+<p>La tipografía Inter se utiliza bajo la licencia SIL Open Font License 1.1.</p>
+
+<h2>5. Responsabilidad</h2>
+<p>El titular trabaja para que la información del sitio web sea correcta y esté actualizada, pero no garantiza la ausencia de errores ni la disponibilidad continua del sitio web. No se hace responsable de los daños que pudieran derivarse de interrupciones, fallos técnicos o virus ajenos a su control, ni del uso indebido del sitio web por parte de los usuarios.</p>
+<p>Las conversaciones de ejemplo que aparecen en el sitio web son ilustrativas y no corresponden a clientes reales.</p>
+
+<h2>6. Enlaces a terceros</h2>
+<p>El sitio web incluye enlaces a servicios de terceros, como WhatsApp. El titular no controla esos sitios y no se responsabiliza de sus contenidos ni de sus políticas de privacidad, que te recomendamos revisar.</p>
+
+<h2>7. Protección de datos y cookies</h2>
+<p>El tratamiento de tus datos personales se explica en la <a href="privacidad.html">política de privacidad</a>, y el uso de cookies en la <a href="politica-cookies.html">política de cookies</a>.</p>
+
+<h2>8. Legislación aplicable y jurisdicción</h2>
+<p>Este aviso legal se rige por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales que correspondan conforme a la ley. Si eres consumidor, serán competentes los de tu domicilio.</p>
+  </div>
+</article>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <img src="logo.svg" alt="Clientes con IA" width="170" height="34">
+    <p>Chatbots, agentes de IA y automatización para pymes de España y Latinoamérica.</p>
+    <nav>
+      <a href="index.html#servicios">Servicios</a>
+      <a href="index.html#faq">Preguntas</a>
+      <a href="index.html#contacto">Contacto</a>
+      <a href="aviso-legal.html" aria-current="page">Aviso legal</a>
+      <a href="privacidad.html">Privacidad</a>
+      <a href="politica-cookies.html">Cookies</a>
+    </nav>
+    <small>© <span id="year">2026</span> Clientes con IA · clientesconia.com</small>
+  </div>
+</footer>
+<script>
+  const t=document.querySelector('.menu-toggle'),m=document.getElementById('menu');
+  t.addEventListener('click',()=>{const o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)});
+  document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
